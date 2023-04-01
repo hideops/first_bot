@@ -1,24 +1,2 @@
 # first_bot
-import random
 
-def gen_pass(pass_length):
-    elements = "+-/*!&$#?=@<>"
-    password = ""
-
-    for i in range(pass_length):
-        password += random.choice(elements)
-
-
-    return password
-
-def choto():
-    smail=['\U0001f600','\U0001f642','\U0001F606','']
-    emoji = random.choice(smail)
-    return emoji
-def privet(otvet):
-    privetstvie=['привет','privet']
-    return random.choice(privetstvie)
-def primer_plus(n,m):
-    return n+m
-def raschet_silu_toka(u,r):
-    return u/r
